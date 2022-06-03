@@ -1,0 +1,180 @@
+
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+section{
+    height: 500px;
+    background-color: white;
+    border: solid black 1px;
+}
+
+.hero{
+    background-color: #3AAFA9;
+    height: 100vh; 
+    color: white;
+    font-size: 40px;
+}
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    height: 200px;
+    background-color: #17252A;
+    color: white;
+    text-align: center;
+    padding: 90px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 30px;
+}
+
+ul.show{
+    display: block;
+}
+
+li{
+    width: 200px;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0px;
+}
+p{
+    margin: 0px;
+    font-weight: 400;
+    font-size: 30px;
+
+}
+.hero-text{
+    margin-left: 80px;
+    margin-bottom: 100px;
+}
+
+.button{
+    width: 160px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #17252A;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 40px;
+}
+
+.button:hover{
+    background-color:#DEF2F1;
+}
+
+.socials{
+    padding-bottom: 200px;
+    padding-right: 30px;
+}
+
+.logo{
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.github{
+    height: 80px;
+    
+    
+}
+.linkedin{
+    height: 60px;
+    padding-right: 20px;
+    margin-bottom: 6px; 
+}
+
+.sub-section{
+    color: #2B7A78;
+    background-color: #DEF2F1;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px; 
+}
+
+h2{
+    font-size: 50px;
+}
+.info{
+ margin-bottom: 60px;
+}
+
+.headshot{
+    width: 300px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.picofme{
+    display: flex; 
+    align-items: center;
+}
+
+
+.project-element{
+    align-items: center;
+    color: white;
+    font-size: 100px;
+    margin-left: 320px;
+    margin-top: 70px;
+    
+}
+
+.button2{
+    width: 197px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #17252A;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 80px;
+    padding-top: 10px;
+    margin-left: 250px;
+    border: 2px solid #DEF2F1;
+}
+.button2:hover{
+    background-color:#DEF2F1;
+}
+
+
+.sub-section2{
+background-color: #2B7A78;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+@media only screen and (max-width: 1000px){
+    .socials{
+        display:flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .project-element{
+        display:flex;
+        flex-wrap: nowrap;
+    }
+}
+
